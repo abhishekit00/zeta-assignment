@@ -1,0 +1,26 @@
+{
+  "columns": {
+    "ID": {
+      "dataType": "Integer",
+      "nullable": false,
+      "unique": true
+    },
+    "FirstName": {
+      "dataType": "String",
+      "nullable": false
+    },
+    "Zipcode": {
+      "dataType": "String",
+      "nullable": false,
+      "pattern": "^[0-9]{6}$"
+    },
+    "City": {
+      "dataType": "String",
+      "nullable": true
+    },
+    "Address": {
+      "dataType": "String",
+      "maxLength": 255
+    }
+  }
+}
